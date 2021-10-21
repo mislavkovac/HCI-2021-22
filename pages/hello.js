@@ -1,19 +1,8 @@
 import React from "react";
+import Header from "../modules/header/header";
 
 const Hello = () => {
-  return (
-    <header>
-      <div>Logo</div>
-      <nav>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Showcase</li>
-        <li>Blog</li>
-        <li>Contact</li>
-        <li>Sign In</li>
-      </nav>
-    </header>
-  );
+  return <Header />;
 };
 
 export default Hello;
